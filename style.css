@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+}
+
+body{
+    background: rgb(134, 166, 253);
+    height: 100vh;
+}
+
+#main{
+    height: 100vh;
+}
+
+#header{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#title{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#description{
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+#survey-form{
+    background: slateblue;
+    display: block;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 70vw;
+    box-shadow: 3px -3px #222;
+}
+
+#form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-input{
+    border-radius: 5px;
+    height: 30px;
+}
+
+.form-label{
+    font-size: 1.5rem;
+}
+
+.form-input, .form-label{
+    margin: 10px;
+    padding: 5px;
+}
+
+#form-dropdown{
+    font-size: 1.5rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-dropdown label, #dropdown{
+    margin: 5px 0px;
+    padding: 5px 0px;
+    height: 40px;
+    border-radius: 1px;
+    font-size: 1.5rem;
+}
+
+#dropdown option, #dropdown{
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#form-radio{
+    font-size: 1.5rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-radio__label{
+    display: block;
+    padding: 5px 0px;
+}
+
+#form-checkbox{
+    font-size: 1.5rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-checkbox label {
+    display: block;
+    padding: 5px 0px;
+}
+
+#form-textarea{
+    font-size: 1.5rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#textarea-box{
+    font-size: 1.5rem;
+    display: flex;
+    margin: 10px 0;
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+}
+
+#submit{
+    display: flex;
+    margin: 10px;
+    width: 90%;
+    height: 40px;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#submit:active{
+    background: rgb(76, 57, 202);
+    border: 2px solid blue;
+}
